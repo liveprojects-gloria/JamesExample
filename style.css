@@ -3,6 +3,20 @@ body{
    color: white;
    background-color: #333333;
 }
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+
 .links {
   clear:both;
   float:left;
@@ -12,12 +26,6 @@ body{
   border-style: groove;
   width: 225px;
   height: 80px;
-}
-
-.links a{
-  padding-left: 10px;
-  color: #cc0000;
-  font-weight: bolder;
 }
 
 .output{
