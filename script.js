@@ -1,7 +1,6 @@
 var app = angular.module('myApp', ['ui.router']);
 
 app.controller('myCtrl', function($scope, $state) {
-  $scope.val = "This is my Message...";
   $scope.views = ['File1', 'File2', 'File3'];
   $scope.Model = {
     selected: null
