@@ -1,0 +1,32 @@
+body{
+   font-family: Helvetica, Arial, sans-serif;
+   color: white;
+   background-color: #333333;
+}
+.links {
+  clear:both;
+  float:left;
+  padding: 10px;
+  border-color: #cc0000;
+  border-width: thin;
+  border-style: groove;
+  width: 225px;
+  height: 80px;
+}
+
+.links a{
+  padding-left: 10px;
+  color: #cc0000;
+  font-weight: bolder;
+}
+
+.output{
+  clear: both; 
+  float:left;
+  margin-top: 20px;
+}
+
+.title
+{
+ font-weight: bolder;
+}
